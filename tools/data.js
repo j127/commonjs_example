@@ -1,16 +1,16 @@
 // Prevent typo bugs
-const measurements = {
+const scales = {
     F: "fahrenheit",
     C: "celsius",
 };
 
 const countries = {
-    US: measurements.F,
-    Belize: measurements.F,
-    Spain: measurements.C,
+    US: scales.F,
+    Belize: scales.F,
+    Spain: scales.C,
 };
 
 module.exports = {
-    measurements,
+    scales,
     countries,
 };

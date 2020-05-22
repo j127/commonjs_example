@@ -1,6 +1,6 @@
 const tools = require("./tools");
 
-flipTemperature("US", -40); // this will conver -40F to celsius
+flipTemperature("US", -40); // this will convert -40F to celsius
 flipTemperature("Spain", 100); // this will convert 100C to fahrenheit
 
 /**
@@ -11,10 +11,10 @@ function flipTemperature(country, temperature) {
     const scale = tools.countries[country];
 
     // if it's fahrenheit
-    if (scale === tools.measurements.F) {
+    if (scale === tools.scales.F) {
         console.log(`The flipped temperature for is ${tools.f2c(temperature)}`);
     // else if it's celsius
-    } else if (scale === tools.measurements.C) {
+    } else if (scale === tools.scales.C) {
         console.log(`The converted temperature is ${tools.c2f(temperature)}`);
     } else {
         console.error("invalid input");
