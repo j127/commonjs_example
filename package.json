@@ -1,0 +1,11 @@
+{
+    "name": "@j127/commonjs_example",
+    "version": "0.1.0",
+    "description": "",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "J. Cohen <hostelmarketing@gmail.com> (https://github.com/j127)",
+    "license": "BSD-3-Clause"
+}
